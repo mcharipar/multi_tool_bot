@@ -121,7 +121,7 @@ TW_ACCESS_TOKEN_SECRET = os.getenv('TW_ACCESS_TOKEN_SECRET')
 # Change Directories to Return Images
 os.chdir('Images')
 
-### [ResourceBot](https://github.com/d-val-r/ResourceBot)
+### ResourceBot
 
 # credentials will be loaded via the environment variables;
 # empty strings as placeholders for now
@@ -201,7 +201,7 @@ async def ehelp(ctx):
     
     """)
 
-### [Finance-Bot](https://github.com/MJ-BUC/Finance-Bot)
+### Finance-Bot
 
 async def on_message(self, message):
         if message.author == client.user:
@@ -307,7 +307,7 @@ async def on_message(self, message):
 #                         counter += 1
 #         await ctx.send('User {arg} has sent {counter} messages in this server.'.format(arg, counter))
 
-### [discordWeatherBot](https://github.com/kswelsh/discordWeatherBot)
+### discordWeatherBot
 
 # GETWEATHER FUNCTION
 # pre: must own a accuweather API key to be used through a getAPIKey() function
